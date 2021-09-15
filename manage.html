@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body class="container-fluid bg-primary">
+    <center>
+        <h1 class="text-light mt-3">Hi Suresh!</h1>
+    </center>
+    <h2 class="text-light my-4">List of Buildings</h2>
+    <table class="table table-light table-hover rounded">
+        <thead class="thead-dark">
+          <tr>
+            <th class="text-center">Building Names</th>
+            <th class="text-center">Manager Name</th>
+            <th class="text-center">Update</th>
+            <th class="text-center">Delete</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr id="1">
+            <td class="text-center">Lodha Bellezza 1</td>
+            <td class="text-center">Ram</td>
+            <td class="text-center"><button class="btn btn-success">Update</button></td>
+            <td class="text-center"><button class="btn btn-danger" onclick="confirm('Are you sure to delete this entry?')?document.getElementById('1').remove():true">Delete</button></td>
+          </tr>
+          <tr id="2">
+            <td class="text-center">Saket Towers</td>
+            <td class="text-center">Shyam</td>
+            <td class="text-center"><button class="btn btn-success">Update</button></td>
+            <td class="text-center"><button class="btn btn-danger" onclick="confirm('Are you sure to delete this entry?')?document.getElementById('2').remove():true">Delete</button></td>
+          </tr>
+          <tr id="3">
+            <td class="text-center">Antilia</td>
+            <td class="text-center">Shankar</td>
+            <td class="text-center"><button class="btn btn-success">Update</button></td>
+            <td class="text-center"><button class="btn btn-danger" onclick="confirm('Are you sure to delete this entry?')?document.getElementById('3').remove():true">Delete</button></td>
+          </tr>
+        </tbody>
+      </table>
+</body>
+</html>
