@@ -9,7 +9,6 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
 </head>
 <body>    
     <header>
@@ -32,6 +31,33 @@
         <button class="btn btn-danger" type="button">Logout</button>
       </nav>
    </header>
+    <div class="container">
+      <div class="form-group row my-4">
+        <div class="col-sm-4">
+          <div class="dropdown">
+            <button type="button" class="btn btn-primary dropdown-toggle" id="temp" data-toggle="dropdown">
+              FLOOR
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#" onclick="document.getElementById('temp').innerText=this.innerText;">FLOOR 1</a>
+              <a class="dropdown-item" href="#" onclick="document.getElementById('temp').innerText=this.innerText;">FLOOR 2</a>
+              <a class="dropdown-item" href="#" onclick="document.getElementById('temp').innerText=this.innerText;">FLOOR 3</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          
+        </div>
+        <div class="col-sm-4 pr-0">
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Search">
+            <div class="input-group-append">
+              <button class="btn btn-success" type="submit">Go</button>
+            </div>
+          </div>
+        </div>
+      </div>
 
+    </div>
 </body>
 </html>
