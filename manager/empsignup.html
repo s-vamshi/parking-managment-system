@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<center>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <a class="navbar-brand" href="#"><img src="../logo.png" class="rounded" alt="Logo" style="width:100px;"></a>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../user.html">User</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="../manager/slotManager.html">Employee</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../owner/owner.html">Building Owner</a>
+              </li>
+            </ul>
+          </nav>
+       </header>
+    <h1>Manager Signup</h1>
+    <label for="name">Manager Name : </label>
+    <input id="name" type="text"><br><br>
+    <label fot="id" >Id : </label>
+    <input id="id" type="text"><br><br>
+    <label for="mail">Mail Id : </label>
+    <input id="mail" type="email"><br><br>
+    <label for="pw">PassWord : </label>
+    <input type="password" id="pw"><br><br>
+    <label for="cpw">Confirm PassWord : </label>
+    <input type="password"><br><br>
+    <input type="button" value = "SignIn" onclick="location.href='slotManager.html';"><br><br>
+    <a href="emplogin.html">Already have an Account</a>
+</body>
+</center>
+</html>
